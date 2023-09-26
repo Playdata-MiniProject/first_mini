@@ -1,5 +1,7 @@
 # first_mini
 
+### https://drive.google.com/file/d/1Uq8LOPU9gwDtTJlJyMLXhiTrRC4WX5Lv/view
+
 ### 가능할 것 같은 것들
 
 시장 동향 및 트렌드 파악
@@ -27,4 +29,4 @@
 
 
 
-## 리스크 관리는 어떤 식5으로 접근해볼까
+## 리스크 관리는 어떤 식으로 접근해볼까
