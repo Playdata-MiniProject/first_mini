@@ -1,5 +1,6 @@
 # first_mini
 
+### 데이터 링크
 ### https://drive.google.com/file/d/1Uq8LOPU9gwDtTJlJyMLXhiTrRC4WX5Lv/view
 
 ### 가능할 것 같은 것들
