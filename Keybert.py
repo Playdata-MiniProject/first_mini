@@ -19,7 +19,7 @@ def extract_keywords(text, num_keywords=5):
     return [keyword[0] for keyword in keywords[:num_keywords]]
 
 # 각 행에 대한 키워드 추출 및 결과 저장
-df['Keywords'] = df['news_smy_ifo'][0:1000].apply(extract_keywords)
+df['Keywords'] = df['news_smy_ifo'][1000:2000].apply(extract_keywords)
 
 # 결과를 CSV 파일로 저장
-df.to_csv('./output_keywords.csv', index=False)
+df.to_csv('./output_keywords.csv', index=False, mode='a')
