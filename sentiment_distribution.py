@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 os.chdir('C:/playdata/open/data')
 
 # CSV 파일 경로 설정 (감성분석 결과를 저장한 CSV 파일)
-csv_file_path = 'Summary_Sentiment_total.csv'  # 파일 경로를 적절하게 수정하세요.
+csv_file_path = './sentiment_analysis_VADER.csv'  # 파일 경로를 적절하게 수정하세요.
 
 # CSV 파일 읽기
 df = pd.read_csv(csv_file_path)
