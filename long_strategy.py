@@ -7,7 +7,7 @@ import yfinance as yf
 os.chdir('C:/playdata/open/data')
 
 
-csv_file_path = './Summary_Sentiment_total.csv'  # CSV 파일 경로 설정
+csv_file_path = './sentiment_analysis_VADER2.csv'  # CSV 파일 경로 설정
 df2 = pd.read_csv(csv_file_path)
 
 csv_file_path = './NASDAQ_DT_FC_STK_QUT.csv'  # CSV 파일 경로 설정
@@ -91,7 +91,7 @@ combined_df.to_csv('./Summary_Sentiment_total.csv', index=False)  # index=False�
 '''
 
 # 감성 분석 값이 긍정적인 주식들을 찾아내기
-positive_sentiment_stocks = df2[df2['sentiment'] >= 0.5]['tck_iem_cd']
+positive_sentiment_stocks = df2[df2['sentiment'] >= 0.75]['tck_iem_cd']
 
 # 긍정적인 감성 분석 값을 가진 주식들과 이상치 제거한 주식 데이터의 교집합 찾기
 common_stocks = set(positive_sentiment_stocks).intersection(set(positive_stock))
